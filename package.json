@@ -1,0 +1,26 @@
+{
+  "name": "learnmodules",
+  "version": "1.0.0",
+  "description": "Learn JS modules with cutting-edge never-before-made lots-of-compound adjectives techniques.  It's actually just an interactive guide",
+  "main": "awful.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Montana-Code-School/learnModules.git"
+  },
+  "author": "Mark Buckner <buckner.a.mark@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Montana-Code-School/learnModules/issues"
+  },
+  "homepage": "https://github.com/Montana-Code-School/learnModules#readme",
+  "devDependencies": {
+    "babel-preset-import-export": "^1.0.2"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0"
+  }
+}
