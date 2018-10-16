@@ -5,9 +5,13 @@ It's actually just an interactive guide
 
 ## Getting Started
 
-Firstly - run:  ```npm install```
+Firstly:
 
-To compile your code run : ```npm run compile```
+```npm install```
+
+To compile your code:
+
+```npm run compile```
 
 Order of Exercises:
 
@@ -18,4 +22,4 @@ Order of Exercises:
 * src/chef.js
 * src/refridgerator.js
 
-Be sure to compile with every edit and test your code in the /lib directory
+Be sure to compile with every file save and test your code in the /lib directory
