@@ -1,5 +1,5 @@
-const multiplyBy2 = num => {
-  return num * 2;
+const multiplyBy11 = num => {
+  return num * 11;
 };
 
-export { multiplyBy2 };
+export { multiplyBy11 };
