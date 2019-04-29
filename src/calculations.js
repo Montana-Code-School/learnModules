@@ -1,7 +1,7 @@
 // Import everything ("*") from the file "mathUtil.js" in
 // the same directory calling it "util" in this file ("as util")
-import * as util from "./mathUtil";
-console.log(util);
+import { sum } from "./mathUtil";
+//console.log(util);
 
 // Step 1. run the file to look at the util object
 
@@ -20,11 +20,19 @@ console.log(util);
 
 // Nice work! You are utilizing the module pattern
 
-// step 4. Remove the line which starts with export in the mathUtil module.
+// Step 4. Remove the line which starts with export in the mathUtil module.
 // Put the keyword "export" in front of both "const" keywords in the mathUtil module.
 // Compile and re-execute the ./lib/calculations.js file
 
 // It still works! Two different ways to accomplish the same thing = JavaScript ;)
+
+// Step 5. Let's just import the our new sum function instead of everything to be more efficient.
+// Replace the "* as util" with "{ sum }"
+// Comment out all console.log's from all previous steps
+// Uncomment the code below, compile and then execute the ./lib/calculations.js file
+//console.log(sum(27, 62));
+
+// Yay...for being more efficient!
 
 // TBD IMPORT SINGLE FUNCTION { sum } with naming {sum as sumAll}
 // TBD NPM INSTALL RANDOM LIBRARY AND USE IT
