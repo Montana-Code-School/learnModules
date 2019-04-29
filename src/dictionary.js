@@ -1,14 +1,14 @@
-import * as util from './stringManipulation';
+import * as util from "./stringManipulation";
 console.log(util);
 
 // step 1. run the file to look at the util object
 
 // step 2. UNCOMMENT the line below, then execute the compiled file
-//util.log('barforama')
-// look at how we have use a a modules funciton
+//util.log("barforama");
+// look at how we have used a modules function
 
-// step 3. Create a new function called splitSpace in the stringManipulation module (stringManipulation.js) 
-// that splits a string apart by each character, and returns that array of each 
+// step 3. Create a new function called splitSpace in the stringManipulation module (stringManipulation.js)
+// that splits a string apart by each character, and returns that array of each
 // characters. Uncomment the code below to make it run.
 
 //UNCOMMENT lINE BELOW IN STEP 3
