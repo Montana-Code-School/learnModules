@@ -9,9 +9,13 @@ Firstly:
 
 `npm install`
 
-To compile your code (NEEDS TO BE RUN AFTER ANY FILE CHANGE IN THE SRC FOLDER):
+To compile your code (Be sure to compile with every file save):
 
 `npm run compile`
+
+Test solutions (After compilation new files get created in the ./lib folder):
+
+`node ./lib/calculations.js`
 
 ## Order of Exercises:
 
@@ -19,6 +23,7 @@ To compile your code (NEEDS TO BE RUN AFTER ANY FILE CHANGE IN THE SRC FOLDER):
 
 - awful.js
 - src/calculations.js
+- src/dates.js
 
 ### Strings
 
@@ -27,5 +32,3 @@ To compile your code (NEEDS TO BE RUN AFTER ANY FILE CHANGE IN THE SRC FOLDER):
 - src/food.js
 - src/chef.js
 - src/refridgerator.js
-
-Be sure to compile with every file save and test your code in the /lib directory
