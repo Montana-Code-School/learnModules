@@ -1,7 +1,7 @@
 // Import everything ("*") from the file "mathUtil.js" in
 // the same directory calling it "util" in this file ("as util")
-import { sum as sumOf2Numbers } from "./mathUtil";
-//console.log(util);
+import * as util from "./mathUtil";
+console.log(util);
 
 // Step 1. run the file to look at the util object
 
